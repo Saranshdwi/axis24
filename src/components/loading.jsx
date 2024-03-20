@@ -10,7 +10,7 @@ const loading = () => {
         </div>
         <div>
           <p className="text-white font-poppins text-2xl">
-            Hello, Welcome to the Official Website of AXIS'24: AN ENIGMATIC
+            Hello, Welcome to the Official Website of AXIS'24: <br />AN ENIGMATIC
             RENAISSANCE
           </p>
         </div>
