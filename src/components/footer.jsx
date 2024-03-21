@@ -1,4 +1,5 @@
 import React from "react";
+import gif from "../assests/gif2.gif";
 
 const footer = () => {
   return (
@@ -11,7 +12,7 @@ const footer = () => {
         </div> */}
       {/*  Footer section with social media icons and newsletter sign-up */}
       <footer className="flex flex-col items-center bg-zinc-50 text-center text-surface dark:bg-neutral-700 dark:text-white">
-        <div className="mb-6 px-6 pt-6 text-xl">
+        <div className="mb-6 px-6 pt-6 text-2xl">
           <p>Connect with us below for more updates !!!</p>
         </div>
         <div className="container">
@@ -113,11 +114,19 @@ const footer = () => {
         </div>
 
         {/* Copyright section */}
-        <div className="w-full bg-black p-4 text-center ">
-          © 2024 Copyright: All Rights Reserved <br />
-          <a class="font-semibold" href="https://axisvnit.in/">
-            AXIS, VNIT
-          </a>
+        <div className="w-full bg-black p-4 text-center flex">
+          {/* Below div to ask doubts about connecting it to the backend */}
+          <div className="w-1/3">
+            <a href="mailto:admin@axisvnit.in">
+              <img src={gif} alt="robot" className="w-20 sm:w-28 align-items-top" />
+            </a>
+          </div>
+          <div className="md:pt-6 md:px-4 md:text-lg">
+            © 2024 Copyright: All Rights Reserved <br />
+            <a class="font-semibold" href="https://axisvnit.in/">
+              AXIS, VNIT
+            </a>
+          </div>
         </div>
       </footer>
     </>
